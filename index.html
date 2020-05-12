@@ -10,12 +10,12 @@
 </head>
 
 <body onload="aoCarregarPagina()">
-    <div>
+    <div class="consulta">
         <label>CEP</label>
         <input type="text" name="txtcep" id="txtcep" />
         <input type="button" name="btnpegar" id="btnpegar" value="Enviar">
     </div>
-    <div>
+    <div class="consulta">
         <label>Endereço:</label>
         <span id="lblrua">XXXXXXXXXXXXXX</span> <br>
         <label>Cidade:</label>
@@ -23,11 +23,10 @@
         <label>Bairro:</label>
         <span id="lblbairro">XXXXXXXXXXXXXX</span>
     </div>
-    <div><p>feito com carinho por</p> <a>gui</a></div>
+    <div><p>feito com carinho por<a>gui</a></p> </div>
 </body>
 <style>
     a{
-        background-color: palegreen;
         text-decoration: none;
     }
     a:hover{
@@ -44,6 +43,9 @@
     }
     p{
         background-color: palegreen;
+    }
+    .consulta{
+        background-color: palegoldenrod;
     }
 </style>
 

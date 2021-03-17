@@ -19,5 +19,5 @@ function requisicaoCep(){
         
         
     })
-    .catch(() => console.log("Opa! deu ruim aí!"));
+    .catch(() => alert("Opa! deu ruim aí!"));
 }
